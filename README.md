@@ -7,7 +7,6 @@ Explore the different sections to learn more about who I am and what I create.
 🔗 Live Site: https://github.com/Nat-62/natanaelquinteros.github.io
 
 
-
 📁 Index
 🏠 Home: A general introduction and navigation to all sections.
 👨‍💻 About Me: Learn more about my background, interests, and values.
