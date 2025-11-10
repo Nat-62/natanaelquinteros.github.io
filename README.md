@@ -18,7 +18,8 @@ Explore the different sections to learn more about who I am and what I create.
 
 ---
 
-💡 Projects
+## 💡 Projects
+
 🚌DrivEasy
 Description:
 DrivEasy provides excellent is a project designed to help people who wants to travel around the country using buses and taxis, helping users find the best prices, schedule and routes that fit their needs through this intuitive project and user-friendly interface.
@@ -26,14 +27,14 @@ This project integrates a broad range of features — from automation to artific
 
 ---
 
-🧾 GradeGlow
+## 🧾 GradeGlow
 Description:
 Its goal is to solve common challenges in managing academic grades in schools by creating a dynamic and user-friendly website that simplifies tracking and organizing grades, making them more secure and streamlining the process.
 With its multifunctional design, GradeGlow reinvents how grading systems are managed and maintained in schools.
 
 ---
 
-💚 HealthZen
+## 💚 HealthZen
 Description:
 HealthZen is an initiative designed to improve access to psychological services for students at ¡Supérate! centers in El Salvador.
 It addresses challenges students face in obtaining mental health support, which often affects their emotional well-being and academic performance.
