@@ -8,12 +8,13 @@ Explore the different sections to learn more about who I am and what I create.
 
 ---
 
-📁 Index
-🏠 Home: A general introduction and navigation to all sections.
-👨‍💻 About Me: Learn more about my background, interests, and values.
-🧠 Skills: Technical and creative abilities that I’ve developed over time.
-📜 Resume: My academic and professional experience.
-💼 Projects: A selection of projects that highlight my work and growth.
+## 📂 Index
+
+- 🏠 **Home:** A general introduction and navigation to all sections.  
+- 👨‍💼 **About Me:** Learn more about my background, interests, and values.  
+- 🧠 **Skills:** Technical and creative abilities that I’ve developed over time.  
+- 📄 **Resume:** My academic and professional experience.  
+- 💡 **Projects:** A selection of projects that highlight my work and growth.
 
 ---
 
