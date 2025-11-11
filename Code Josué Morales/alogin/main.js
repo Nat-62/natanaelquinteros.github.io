@@ -27,13 +27,11 @@ window.addEventListener('scroll', function() {
             updateCarousel();
         });
  
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('¡Gracias por tu mensaje! Me pondré en contacto contigo pronto.');
-            this.reset();
-        });
- 
-        document.querySelectorAll('.nav-links a').forEach(anchor => {
+        (function() {
+  emailjs.init("oS126UZnRl1bYGhb1Pbtq"); 
+})();
+
+document.querySelectorAll('.nav-links a').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
                 const targetId = this.getAttribute('href');
@@ -58,3 +56,28 @@ window.addEventListener('scroll', function() {
                 });
             }
         });
+
+(function() {
+  // Asegúrate de pegar aquí tu Public Key correcta desde EmailJS
+  emailjs.init("NJIhYeDKXDUcVfjpo"); 
+})();
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  const btn = document.getElementById('button');
+  btn.textContent = 'Sending...';
+
+  const serviceID = 'service_pocvk1h'; // Tu Service ID correcto
+  const templateID = 'template_8wgioi9'; // Tu Template ID correcto
+
+  emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.textContent = 'Send';
+      alert('✅ Message sent successfully!');
+      this.reset();
+    }, (err) => {
+      btn.textContent = 'Send';
+      alert('❌ Failed to send message: ' + JSON.stringify(err));
+    });
+});
