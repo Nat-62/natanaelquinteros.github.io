@@ -58,7 +58,7 @@ document.querySelectorAll('.nav-links a').forEach(anchor => {
         });
 
 (function() {
-  // Asegúrate de pegar aquí tu Public Key correcta desde EmailJS
+
   emailjs.init("NJIhYeDKXDUcVfjpo"); 
 })();
 
@@ -68,8 +68,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
   const btn = document.getElementById('button');
   btn.textContent = 'Sending...';
 
-  const serviceID = 'service_pocvk1h'; // Tu Service ID correcto
-  const templateID = 'template_8wgioi9'; // Tu Template ID correcto
+  const serviceID = 'service_pocvk1h'; 
+  const templateID = 'template_8wgioi9'; 
 
   emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
@@ -81,3 +81,4 @@ document.getElementById('contactForm').addEventListener('submit', function(event
       alert('❌ Failed to send message: ' + JSON.stringify(err));
     });
 });
+
