@@ -1,4 +1,4 @@
-# natanaelquinteros.github.io
+# Nat-62
 🚀 Personal Portfolio
 
 Welcome to my personal portfolio, a space where I showcase my journey, skills, and the projects that define my passion for technology and innovation.
